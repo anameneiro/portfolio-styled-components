@@ -1,16 +1,22 @@
-import Teste from './Teste';
-import EstiloGlobal from './styles';
+
+import Projetos from './containers/Projetos';
+import Sobre from './containers/Sobre';
+import Sidebar from './containers/sidebar';
+import EstiloGlobal, { Container } from './styles';
 
 
-// function somar(a,b) {
-//   return a+b;
-// }
 
 function App() {
   return (
     <>
       < EstiloGlobal/>
-      <Teste/>
+      <Container>
+      <Sidebar />
+      <main>
+        < Sobre/>
+        < Projetos />
+      </main>
+      </Container>
     </>
   )
 }
