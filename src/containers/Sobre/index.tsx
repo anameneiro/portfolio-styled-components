@@ -13,7 +13,7 @@ const Sobre = () => (
         </Paragrafo>
         <GithubSecao>
         <img src="https://github-readme-streak-stats.herokuapp.com?user=anameneiro&theme=radical&mode=weekly" alt="github"/>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anameneiro&layout=compact&langs_count=7&theme=dracula" alt="github"/>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anameneiro&layout=compact&langs_count=7&theme=radical" alt="github"/>
         </GithubSecao>
     </section>
 )
